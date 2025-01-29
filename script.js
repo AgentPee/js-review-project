@@ -7,7 +7,7 @@ const todoList = document.getElementById('todo-list');
 function renderTodos() {
     todoList.innerHTML = '';
     todos.forEach((todo, index) => {
-        const Li = document.createElement('li');
+        const li = document.createElement('li');
         li.classname = 'todo-item';
         li.innerHTML = `
             <span>${todo}</span>
